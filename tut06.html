@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+
+    <div id="res">
+
+    </div>
+<!--<button onclick="loadMe()">Click Me</button>-->    
+<!--     <button onmouseover="loadMe()">Click Me</button>-->
+ <button onmouseup="loadMe()">Click Me</button>
+<!-- <button onmouseover="loadMe()">Click Me</button>
+ -->    
+
+    <script>
+
+
+function loadMe(){
+
+    alert("Button Load");
+    document.getElementById('res').innerHTML="Hello World";
+    console.log('Hello World!!')
+}
+
+    </script>
+    
+</body>
+</html>
